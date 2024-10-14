@@ -74,7 +74,25 @@
             const containerElement = document.getElementById("box");
             const headingElement = document.getElementById("title");
             const bodyElement = document.getElementById("body");
-        }
+            if(name=='rakul'){
+                imageElement.src = "Rakul.jpg";
+                containerElement.style.backgroundColor = " #f17272";
+                headingElement.innerText = "Rakul Preet Singh";
+                bodyElement.style.backgroundColor = " hsla(0, 95%, 83%, 0.801)";
+            }
+            else if(name=='akhil'){
+                imageElement.src = "akhil.jfif";
+                containerElement.style.backgroundColor = "#7aade4";
+                headingElement.innerText = "Akhil Akkineni";
+                bodyElement.style.backgroundColor = " #ccdef1";
+            }
+            else {
+                imageElement.src = "kalyani.jfif";
+                containerElement.style.backgroundColor = "#ee6aac";
+                headingElement.innerText = "Kalyani Priyadarshan";
+                bodyElement.style.backgroundColor = "#fdb8db";
+            }
+        }    
         </script>
 
 
